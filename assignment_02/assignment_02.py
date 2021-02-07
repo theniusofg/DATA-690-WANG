@@ -1,11 +1,4 @@
-# Prompts a user to enter 10 integers. If the user enters anything other than integers, remind her that only integers are allowed and let her retry. Note: You need to detect if use makes a mistake and let the user retry without exiting the program. The previously entered valid inputs should be kept and not lost. Don't allow the user to enter more than 10 or less than 10 integers. 
-
-# Display the 10 integers back to the user at the end. 
-
-# Calculate the following statistics from the 10 integers entered and display the results back to the user: Minimum Maximum Range Mean Variance Standard Deviation Note:  Use the basic Python concepts and methods. Special Python libraries such as statistics, scipy, or numpy are not allowed. You may need to use:  loops (finite and/or infinite loop) break/continue try/except input() function int() function 
-
-# Implement the solution in the following two different formats:  A Jupyter Notebook (.ipynb) A Python script (.py) (This is optional, not required) Your source code and outputs should be well formatted and easy to read and understand.  Provide good code documentation:  Use both Markdown and code comments in the Jupyter Notebook. Use only comments in the Python script. Your user prompts, use inputs and output displays should be nicely formatted when users run your program.  Create a subfolder named "Assignment-02" in your GitHub repository and upload the two files to the subfolder.  Copy your GitHub repository URL to your assignment submission in Blackboard. No files should be uploaded to the BB.
-
+# rough draft created in repl.it
 LIST_SIZE = 10
 
 print(f'HI! I\'m a program. I preform mathematical operations. To get me to run I need you enter a set consisting of {LIST_SIZE} numbers, then I\'ll calculate the following operations for you: \n\nMinimum \nMaximum \nRange \nMean \nVariance \nStandard Deviation')
